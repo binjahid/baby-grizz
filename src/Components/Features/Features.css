@@ -1,0 +1,115 @@
+.features-title {
+  position: relative;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  top: -7rem;
+  margin-bottom: -2rem;
+}
+.feature-icon {
+  background-color: #fe6806;
+  height: 15px;
+  width: 15px;
+  padding: 7px;
+  border-radius: 50%;
+  margin: 25px 15px 5px 5px;
+}
+.feature-icon-NFT {
+  background-color: #ffffff;
+  height: 15px;
+  width: 15px;
+  padding: 7px;
+  border-radius: 50%;
+  margin: 25px 15px 5px 5px;
+}
+
+.featureTitle {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: -1rem;
+}
+.featureImageContianer {
+  width: 30rem;
+  height: 30rem;
+}
+.featureImage {
+  position: absolute;
+  width: 30rem;
+  z-index: 100;
+}
+.titleCercle {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 5px solid #ffedd460;
+  border-radius: 50%;
+  top: -7.5rem;
+  left: 35.5rem;
+  background-color: transparent;
+}
+.featureCercle1 {
+  position: absolute;
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  top: 8rem;
+  right: 3.7rem;
+  background-color: #fff5e7;
+}
+.featureCercle2 {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border: 5px solid #ffedd4;
+  border-radius: 50%;
+  top: 6rem;
+  left: 7rem;
+  background-color: transparent;
+}
+.miniCercle1 {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  top: 8rem;
+  right: 3.7rem;
+  background-color: #fe6806;
+}
+.miniCercle2 {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  top: 8rem;
+  left: 7rem;
+  background-color: #fe6806;
+}
+.miniCercle3 {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  bottom: 2rem;
+  left: 7rem;
+  background-color: #fe6806;
+}
+.descriptionSmallCercle1 {
+  position: absolute;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  top: 8rem;
+  left: -1.5rem;
+  background-color: #fe6806;
+}
+.descriptionSmallCercle2 {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  bottom: -2rem;
+  left: -4rem;
+  background-color: #fe6806;
+}
