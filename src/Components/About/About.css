@@ -1,0 +1,104 @@
+.AboutContainer {
+  margin-top: 3rem;
+  background-image: url("../../Images/aboutBackground.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position-y: bottom;
+  width: 100%;
+}
+.aboutImageContainer {
+  width: 35rem;
+  height: 40rem;
+}
+.aboutImage {
+  width: 35rem;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+.aboutSmallImg {
+  position: absolute;
+  width: 5rem;
+  z-index: 5;
+  bottom: 0;
+  left: -10rem;
+}
+.aboutCercle1 {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: #fff1dc;
+  top: 5rem;
+  left: -2rem;
+  z-index: 5;
+}
+.aboutCercle2 {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: 4.5rem;
+  left: 18rem;
+  z-index: 5;
+}
+.aboutTitle {
+  width: 270px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+}
+.aboutDescription {
+  width: 400px;
+  color: #4a4a4a;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.select {
+  display: flex;
+  padding: 5px 0;
+}
+.selectRedio {
+  -webkit-appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: #d48d23;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid #d48d23;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+}
+.selectRedio::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #d48d23;
+  background-color: CanvasText;
+}
+.selected::before {
+  transform: scale(1);
+}
+.labelTxt {
+  position: relative;
+  top: -2px;
+  padding-left: 10px;
+  color: #4a4a4a;
+}
+.aboutBtn {
+  border: none;
+  background-image: linear-gradient(to bottom, #ff9d1e, #fe6806);
+  padding: 8px 30px;
+  border-radius: 15px;
+  color: #fff;
+}
