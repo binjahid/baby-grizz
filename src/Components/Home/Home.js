@@ -2,6 +2,7 @@ import React from "react";
 import About from "../About/About";
 import Features from "../Features/Features";
 import Header from "../Header/Header";
+import OurJourney from "../OurJourney/OurJourney";
 import Tokenomics from "../Tokenomics/Tokenomics";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Features></Features>
       <About></About>
       <Tokenomics></Tokenomics>
+      <OurJourney></OurJourney>
     </div>
   );
 };

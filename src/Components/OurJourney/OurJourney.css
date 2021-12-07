@@ -1,0 +1,109 @@
+.jounrneyContainer {
+  background-image: url("../../Images/journeyBackground.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position-y: bottom;
+  width: 100%;
+  z-index: 100;
+}
+.journey-img-container {
+  width: 350px;
+  height: 350px;
+}
+.journeyImg {
+  width: 100%;
+  height: 100%;
+}
+.journeyTimelineContainer {
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+.journeyArrowImg {
+  position: absolute;
+  right: 180px;
+  top: 80px;
+  height: 80%;
+}
+/* Dots css */
+.journeyDot1 {
+  position: absolute;
+  right: 172px;
+  top: 80px;
+  width: 25px;
+  height: 25px;
+  background-color: #fffbf6;
+  border: 2px solid #ff9446;
+  border-radius: 50%;
+}
+.journeySamllDot1 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #ff9446;
+  border-radius: 50%;
+}
+/* Dot 2 */
+.journeyDot2 {
+  position: absolute;
+  right: 172px;
+  top: 220px;
+  width: 25px;
+  height: 25px;
+  background-color: #fffbf6;
+  border: 2px solid #ff9446;
+  border-radius: 50%;
+}
+.journeySamllDot2 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #ff9446;
+  border-radius: 50%;
+}
+/* Dot 3 */
+.journeyDot3 {
+  position: absolute;
+  right: 172px;
+  top: 340px;
+  width: 25px;
+  height: 25px;
+  background-color: #fffbf6;
+  border: 2px solid #ff9446;
+  border-radius: 50%;
+}
+.journeySamllDot3 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #ff9446;
+  border-radius: 50%;
+}
+/* Dot 4 */
+.journeyDot4 {
+  position: absolute;
+  right: 172px;
+  top: 460px;
+  width: 25px;
+  height: 25px;
+  background-color: #fffbf6;
+  border: 2px solid #ff9446;
+  border-radius: 50%;
+}
+.journeySamllDot4 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background-color: #ff9446;
+  border-radius: 50%;
+}
