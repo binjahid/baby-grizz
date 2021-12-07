@@ -1,0 +1,56 @@
+.headerContainer {
+  background-image: url("../../Images/headerBackground.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position-y: bottom;
+  width: 100%;
+  /* background-color: #fff1dc; */
+}
+.logoContainer {
+  position: relative;
+  top: 1px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+}
+.logoText {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 1rem;
+  position: relative;
+  left: -25px;
+}
+.nav-container {
+  display: flex;
+}
+.nav-container li {
+  list-style: none;
+  margin-right: 1rem;
+}
+.navLink {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-family: "Poppins", sans-serif;
+}
+.navLink:hover {
+  color: #fe6806;
+}
+.navLink:active {
+  color: #fe6806;
+}
+.buyBtn {
+  border: none;
+  background-color: transparent;
+}
+.buyLink {
+  text-decoration: none;
+  color: #fe6806;
+  border: 1px solid #fe6806;
+  padding: 8px 15px;
+  border-radius: 20px;
+}

@@ -1,0 +1,21 @@
+.banner-buy-btn {
+  margin-top: 1.3rem;
+  border: none;
+  background-color: transparent;
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #ffa622, #fd5b00);
+  color: #ffffff;
+}
+.bannerImageContainer {
+  position: relative;
+  top: -3.5rem;
+}
+.bannerImg {
+  width: 30rem;
+}
+@media screen and (max-width: 768px) {
+  .bannerImg {
+    width: 23rem;
+  }
+}
