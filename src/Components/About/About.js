@@ -50,6 +50,7 @@ const About = () => {
               display: "flex",
               justifyContent: "center",
               top: "50px",
+              height: "100%",
             }}
           >
             <div className="aboutContainer">

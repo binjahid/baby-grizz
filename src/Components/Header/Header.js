@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Banner from "../Banner/Banner";
 import "./Header.css";
 import logo from "../../Images/logo1.png";
-import headerBackground from "../../Images/headerBackground.png";
+
 const Header = () => {
   return (
     <div className="headerContainer">

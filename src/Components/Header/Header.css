@@ -1,4 +1,5 @@
 .headerContainer {
+  background-image: url("../../Images/headerWhite.png");
   background-image: url("../../Images/headerBackground.png");
   background-position: center;
   background-size: 100% 100%;
@@ -6,6 +7,7 @@
   height: 100%;
   background-position-y: bottom;
   width: 100%;
+  z-index: 100;
   /* background-color: #fff1dc; */
 }
 .logoContainer {
