@@ -4,6 +4,7 @@ import Features from "../Features/Features";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import OurJourney from "../OurJourney/OurJourney";
+import TokenDistribution from "../TokenDistribution/TokenDistribution";
 import Tokenomics from "../Tokenomics/Tokenomics";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About></About>
       <Tokenomics></Tokenomics>
       <OurJourney></OurJourney>
+      <TokenDistribution></TokenDistribution>
       <Footer></Footer>
     </div>
   );

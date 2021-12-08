@@ -11,7 +11,7 @@ const Footer = () => {
   const CurrentYear = new Date().getFullYear();
   return (
     <div className="footerContainer">
-      <Container>
+      <Container fixed>
         <div className="footerContent">
           <div>
             <img

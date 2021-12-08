@@ -1,0 +1,148 @@
+.tokenTitileContainer {
+  margin-bottom: 80px;
+}
+.tokenTitle {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+.progressBarContainer {
+  position: relative;
+  padding-bottom: 100px;
+}
+.progressBar {
+  display: flex;
+  justify-content: center;
+}
+/* Arrow Styles */
+.green {
+  position: absolute;
+  width: 250px;
+  top: -20px;
+  height: 100px;
+  right: 640px;
+  border-top: 1px solid #248943;
+  border-right: 1px solid #248943;
+}
+.greenDot {
+  background-color: #248943;
+  top: -10px;
+  left: -5px;
+}
+.dotStyle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.pink {
+  position: absolute;
+  width: 250px;
+  top: -20px;
+  height: 100px;
+  right: 250px;
+  border-top: 1px solid #ff6262;
+  border-left: 1px solid #ff6262;
+}
+.pinkDot {
+  background-color: #ff6262;
+  top: -10px;
+  right: -5px;
+}
+.cream {
+  position: absolute;
+  width: 250px;
+  top: 260px;
+  height: 100px;
+  right: 640px;
+  border-bottom: 1px solid #ffefc7;
+  border-right: 1px solid #ffefc7;
+}
+.creamDot {
+  background-color: #ffefc7;
+  bottom: -10px;
+  left: -5px;
+}
+.mud {
+  position: absolute;
+  width: 250px;
+  top: 260px;
+  height: 100px;
+  right: 250px;
+  border-bottom: 1px solid #b74f04;
+  border-left: 1px solid #b74f04;
+}
+.mudDot {
+  background-color: #b74f04;
+  bottom: -10px;
+  right: -5px;
+}
+/* progress Content */
+.progressBarContentGreen {
+  position: absolute;
+  left: -60px;
+  top: -33px;
+}
+.progressBarContentPink {
+  position: absolute;
+  right: -90px;
+  top: -33px;
+}
+.progressBarContentCream {
+  position: absolute;
+  left: -60px;
+  top: 67px;
+}
+.progressBarContentMud {
+  position: absolute;
+  right: 100px;
+  bottom: -35px;
+}
+.semiTitle {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+.semiDes {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* second half css */
+.pregressBarSecondHalfContainer {
+  margin-top: 130px;
+}
+.secondHalfContainer__icon {
+  font-size: 40px;
+  color: white;
+  background-image: linear-gradient(to right, #ff720a, #ffcc2b);
+  padding: 7px 15px;
+  border-radius: 50%;
+}
+.secondHalfContainer__icon2 {
+  font-size: 28px;
+  color: white;
+  background-image: linear-gradient(to right, #ff720a, #ffcc2b);
+  padding: 11px 11px;
+  border-radius: 50%;
+}
+.secondHalfContainer__icon3 {
+  font-size: 28px;
+  color: white;
+  background-image: linear-gradient(to right, #ff720a, #ffcc2b);
+  padding: 12px 13px;
+  border-radius: 50%;
+}
+.secondHalfContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secondHalfTitle {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: -10px;
+}
