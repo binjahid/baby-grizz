@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 import Banner from "../Banner/Banner";
 import "./Header.css";
 import logo from "../../Images/logo1.png";
-
+import { GiHamburgerMenu } from "react-icons/gi";
+import { MdOutlineCancel } from "react-icons/md";
 const Header = () => {
+  const [open, setOpen] = React.useState(false);
   return (
     <div className="headerContainer">
       <header className="Header">
@@ -26,29 +28,73 @@ const Header = () => {
             </Link>
           </div>
           <nav>
-            <ul className="nav-container">
+            <ul
+              className={
+                open
+                  ? "nav-container menuActive "
+                  : "nav-container hidden MenuHidden"
+              }
+            >
               <li>
-                <Link className="navLink" to="/">
+                <MdOutlineCancel
+                  className="menuClose"
+                  onClick={() => {
+                    setOpen(!open);
+                  }}
+                />
+              </li>
+              <li>
+                <Link
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="navLink"
+                  to="/"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="navLink" to="/">
+                <Link
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="navLink"
+                  to="/"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link className="navLink" to="/">
+                <Link
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="navLink"
+                  to="/"
+                >
                   Roadmap
                 </Link>
               </li>
               <li>
-                <Link className="navLink" to="/">
+                <Link
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="navLink"
+                  to="/"
+                >
                   NFT Mint
                 </Link>
               </li>
               <li>
-                <Link className="navLink" to="/">
+                <Link
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="navLink"
+                  to="/"
+                >
                   WhitePapers
                 </Link>
               </li>
@@ -62,6 +108,14 @@ const Header = () => {
                 Buy on pancakeswop
               </Link>
             </button>
+          </div>
+          <div className="menuToggleBtn">
+            <GiHamburgerMenu
+              onClick={() => {
+                setOpen(!open);
+              }}
+              className="menuToggle"
+            />
           </div>
         </Container>
       </header>

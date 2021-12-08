@@ -56,3 +56,55 @@
   padding: 8px 15px;
   border-radius: 20px;
 }
+.menuToggle {
+  display: none;
+  cursor: pointer;
+}
+.menuClose {
+  display: none;
+  cursor: pointer;
+}
+/* Resposive Menu CSS */
+@media screen and (max-width: 1200px) {
+  .MenuHidden {
+    position: absolute;
+    display: block;
+    height: 100vh;
+    background-color: #fff1dc;
+    z-index: 100;
+    width: 40%;
+    left: -100%;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 40px;
+    font-size: 20px;
+    transition: 1s ease;
+  }
+  .menuActive {
+    position: absolute;
+    display: block;
+    height: 100vh;
+    background-color: #fff1dc;
+    z-index: 100;
+    width: 40%;
+    left: 0;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 40px;
+    font-size: 20px;
+    transition: 0.5s ease;
+  }
+  .menuClose {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-size: 30px;
+    color: #fe6806;
+  }
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #fe6806;
+  }
+}
