@@ -9,6 +9,13 @@
 }
 .footerContent {
   height: 800px;
+  position: relative;
+}
+.footarSmallImg2 {
+  position: absolute;
+  left: -380px;
+  top: -90px;
+  z-index: 8;
 }
 .footerTitle {
   font-size: 40px;

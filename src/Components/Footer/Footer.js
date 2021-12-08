@@ -13,6 +13,13 @@ const Footer = () => {
     <div className="footerContainer">
       <Container>
         <div className="footerContent">
+          <div>
+            <img
+              className="footarSmallImg2"
+              src={footerImg2}
+              alt="footerImg2"
+            />
+          </div>
           <div className="footerTitleContainer">
             <Grid
               container
