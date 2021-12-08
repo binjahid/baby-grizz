@@ -23,7 +23,12 @@ const Banner = () => {
             xl={6}
             sx={{ display: "flex", justifyContent: "center" }}
           >
-            <Box sx={{ position: "relative" }}>
+            <Box
+              sx={{
+                position: "relative",
+                top: { md: "20px", lg: "20px", sm: "70px" },
+              }}
+            >
               <Box
                 sx={{
                   fontFamily: "Nunito",

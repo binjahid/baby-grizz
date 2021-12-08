@@ -53,7 +53,13 @@ const Features = () => {
                 borderRadius: "10px",
                 backgroundImage: "linear-gradient(to right, #fe6806, #ff9900)",
                 mb: 2.5,
-                left: "65px",
+                left: {
+                  md: "65px",
+                  lg: "65px",
+                  xl: "65px",
+                  sm: "15px",
+                  xs: "15px",
+                },
               }}
             >
               <Box sx={{ display: "flex" }}>

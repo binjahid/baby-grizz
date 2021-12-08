@@ -113,3 +113,21 @@
   left: -4rem;
   background-color: #fe6806;
 }
+/* for small devices  */
+@media screen and (max-width: 768px) {
+  .featureImage {
+    left: 25px;
+  }
+  .featureCercle1 {
+    left: 150px;
+  }
+}
+/* for extra samll devices  */
+@media screen and (max-width: 500px) {
+  .featureImage {
+    left: -50px;
+  }
+  .featureCercle1 {
+    left: 70px;
+  }
+}

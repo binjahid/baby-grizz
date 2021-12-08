@@ -103,3 +103,21 @@
   color: #fff;
   margin-top: 1rem;
 }
+/* For small devices */
+@media screen and (max-width: 890px) {
+  .aboutImageContainer {
+    display: none;
+  }
+  .aboutCercle1 {
+    display: none;
+  }
+  .aboutCercle2 {
+    display: none;
+  }
+  .aboutContainer {
+    height: 700px;
+    position: relative;
+    top: 70px;
+    left: 30px;
+  }
+}
