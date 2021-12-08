@@ -11,7 +11,7 @@ const ProgressChart = ({ data }) => {
     { title: "Four", value: presale, color: "#FFEFC7" },
   ];
   return (
-    <div style={{ width: "330px", transform: "rotate(-160deg)" }}>
+    <div className="processBar">
       <PieChart data={dataMock} lineWidth={40} />
     </div>
   );

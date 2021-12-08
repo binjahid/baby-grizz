@@ -25,30 +25,29 @@ const Footer = () => {
               container
               spacing={2}
               sx={{
+                position: "relative",
                 backgroundImage: "linear-gradient(to right, #FF700A, #FFD12D)",
                 borderRadius: "40px",
                 padding: "10px 20px",
-                position: "relative",
+                mb: "20px",
                 top: "-50px",
+                width: { lg: "100%", md: "100%", sm: "100%", xs: "109%" },
               }}
             >
               <Grid
                 item
                 xs={12}
                 sm={12}
-                md={9}
-                lg={9}
-                xl={9}
+                md={6}
+                lg={6}
+                xl={6}
                 sx={{
                   display: "flex",
                   justifyContent: "center",
-                  // alignItems: "center",
-                  position: "relative",
-                  top: "15px",
-                  left: "-70px",
+                  alignItems: "center",
                 }}
               >
-                <div>
+                <div style={{ textAlign: "center" }}>
                   <h2 className="footerTitle">
                     Be part of our growing community on Telegram now
                   </h2>
@@ -59,10 +58,14 @@ const Footer = () => {
                 item
                 xs={12}
                 sm={12}
-                md={3}
-                lg={3}
-                xl={3}
-                sx={{ position: "relative" }}
+                md={6}
+                lg={6}
+                xl={6}
+                sx={{
+                  display: { md: "flex", lg: "flex", sm: "none", xs: "none" },
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
                 <div className="footerImgContainer">
                   <img className="footerSmlImg" src={footerImg1} alt="footer" />

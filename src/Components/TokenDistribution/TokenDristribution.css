@@ -8,10 +8,10 @@
   font-size: 40px;
 }
 .progressBarContainer {
-  position: relative;
   padding-bottom: 100px;
 }
 .progressBar {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -96,15 +96,25 @@
 }
 .progressBarContentMud {
   position: absolute;
-  right: 100px;
-  bottom: -35px;
+  right: -150px;
+  bottom: -110px;
 }
 .semiTitle {
   font-size: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: 800;
 }
+.semiTitleMud {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  position: relative;
+}
 .semiDes {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.semiDesmud {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
@@ -145,4 +155,114 @@
   font-weight: 800;
   font-size: 30px;
   margin-bottom: -10px;
+}
+.processBar {
+  width: 330px;
+  transform: rotate(-160deg);
+} /* For medium devices */
+@media screen and (max-width: 1150px) {
+  .green {
+    right: 500px;
+  }
+  .pink {
+    right: 100px;
+  }
+  .cream {
+    right: 500px;
+  }
+  .mud {
+    right: 100px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .green {
+    right: 350px;
+    width: 200px;
+  }
+  .cream {
+    right: 350px;
+    width: 200px;
+  }
+  .pink {
+    right: -10px;
+    width: 200px;
+  }
+  .mud {
+    right: 50px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .processBar {
+    width: 200px;
+  }
+  .green {
+    right: 230px;
+    width: 100px;
+    height: 50px;
+  }
+  .cream {
+    top: 180px;
+    right: 230px;
+    width: 100px;
+    height: 50px;
+  }
+  .pink {
+    width: 75px;
+    height: 50px;
+    left: 228px;
+  }
+  .mud {
+    width: 75px;
+    height: 50px;
+    top: 180px;
+    left: 230px;
+    border: none;
+    border-top: 1px solid #b74f04;
+    border-right: 1px solid #b74f04;
+  }
+  .progressBarContentMud {
+    width: 133px;
+    left: 7px;
+  }
+  .mudDot {
+    right: -10px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .processBar {
+    width: 150px;
+  }
+  .green {
+    right: 180px;
+    width: 90px;
+    height: 50px;
+  }
+  .progressBarContentGreen {
+    font-size: 12px;
+  }
+  .cream {
+    top: 130px;
+    right: 180px;
+    width: 90px;
+    height: 50px;
+  }
+  .progressBarContentCream {
+    font-size: 12px;
+  }
+  .pink {
+    left: 180px;
+    width: 90px;
+    height: 50px;
+  }
+  .progressBarContentPink {
+    font-size: 12px;
+  }
+  .mud {
+    top: 130px;
+    left: 180px;
+  }
+  .progressBarContentMud {
+    font-size: 12px;
+  }
 }

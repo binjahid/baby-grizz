@@ -5,6 +5,19 @@ import journeyArrow from "../../Images/journeyArrow.png";
 import "./OurJourney.css";
 import journeySmallImg from "../../Images/journeySmallImg.png";
 const OurJourney = () => {
+  const paperStyle = {
+    width: {
+      lg: "350px",
+      xl: "350px",
+      md: "250px",
+      sm: "300px",
+      xs: "340px",
+    },
+    p: "5px 20px",
+    borderRadius: "10px",
+    backgroundColor: "#FFFEF9",
+    margin: "0px",
+  };
   // Edit Data here to update Jounrney timeline
   const jourNeyData = {
     questionOne: {
@@ -45,6 +58,7 @@ const OurJourney = () => {
             className="journeySmallImg"
             src={journeySmallImg}
             alt="journeySmallImg"
+            style={{ display: "none" }}
           />
         </div>
         <div className="jouneyCercle3"></div>
@@ -84,15 +98,7 @@ const OurJourney = () => {
             <div className="journeyTimelineContainer">
               <div className="journeyTimelineLeft">
                 <div className="journeyTimeline1">
-                  <Paper
-                    elevation={1}
-                    sx={{
-                      width: "350px",
-                      p: "5px 20px",
-                      borderRadius: "10px",
-                      backgroundColor: "#FFFEF9",
-                    }}
-                  >
+                  <Paper elevation={1} sx={paperStyle}>
                     <h2 className="timeLineHeader">
                       {jourNeyData.questionTwo.name}
                     </h2>
@@ -102,15 +108,7 @@ const OurJourney = () => {
                   </Paper>
                 </div>
                 <div className="journeyTimeline2">
-                  <Paper
-                    elevation={1}
-                    sx={{
-                      width: "350px",
-                      p: "5px 20px",
-                      borderRadius: "10px",
-                      backgroundColor: "#FFFEF9",
-                    }}
-                  >
+                  <Paper elevation={1} sx={paperStyle}>
                     <h2 className="timeLineHeader">
                       {jourNeyData.questionFour.name}
                     </h2>
@@ -141,15 +139,7 @@ const OurJourney = () => {
               </div>
               <div className="journeyTimelineRight">
                 <div className="journeyTimeline3">
-                  <Paper
-                    elevation={1}
-                    sx={{
-                      width: "350px",
-                      p: "5px 20px",
-                      borderRadius: "10px",
-                      backgroundColor: "#FFFEF9",
-                    }}
-                  >
+                  <Paper elevation={1} sx={paperStyle}>
                     <h2 className="timeLineHeader">
                       {jourNeyData.questionOne.name}
                     </h2>
@@ -159,15 +149,7 @@ const OurJourney = () => {
                   </Paper>
                 </div>
                 <div className="journeyTimeline4">
-                  <Paper
-                    elevation={1}
-                    sx={{
-                      width: "350px",
-                      p: "5px 20px",
-                      borderRadius: "10px",
-                      backgroundColor: "#FFFEF9",
-                    }}
-                  >
+                  <Paper elevation={1} sx={paperStyle}>
                     <h2 className="timeLineHeader">
                       {jourNeyData.questionThree.name}
                     </h2>

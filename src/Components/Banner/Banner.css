@@ -120,8 +120,22 @@
   left: -15rem;
   bottom: -5rem;
 }
+.buyBtnForMobile {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
 /* For Small Devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) and (min-width: 771px) {
+  .sercle-2 {
+    top: 50px;
+    left: 180px;
+  }
+  .miniSercle1 {
+    left: 450px;
+  }
+}
+@media screen and (max-width: 770px) {
   .bannerImg {
     width: 23rem;
     top: 40px;
@@ -129,5 +143,64 @@
   }
   .headerRewardContainer {
     top: "-20px";
+  }
+  .sercle-2 {
+    top: 50px;
+    left: 150px;
+  }
+  .miniSercle1 {
+    left: 400px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .bannerImg {
+    width: 25rem;
+    height: 25rem;
+    top: 40px;
+    left: -200px;
+  }
+  .headerRewardContainer {
+    top: "-20px";
+  }
+  .sercle-2 {
+    width: 18rem;
+    height: 18rem;
+    top: 40px;
+    left: -110px;
+  }
+  .sercle-1 {
+    width: 18rem;
+    height: 18rem;
+    top: 100px;
+    left: -140px;
+  }
+  .miniSercle1 {
+    left: -150px;
+  }
+  .img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 385px) {
+  .img {
+    width: 12rem;
+  }
+  .bannerImg {
+    width: 25rem;
+    height: 25rem;
+    top: 40px;
+    left: -120px;
+  }
+  .sercle-1 {
+    width: 18rem;
+    height: 18rem;
+    top: 100px;
+    left: -65px;
+  }
+  .sercle-2 {
+    width: 18rem;
+    height: 18rem;
+    top: 60px;
+    left: -30px;
   }
 }

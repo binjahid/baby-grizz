@@ -19,39 +19,39 @@ const TokenDistribution = () => {
         </div>
         {/* Progress bar Goes here */}
         <div className="progressBarContainer">
-          <div className="green">
-            <div className="greenDot dotStyle"></div>
-            <div className="progressBarContentGreen">
-              <p className="semiTitle">{data.token} %</p>
-              <span className="semiDes">
-                Teanm Tokens <br /> LOCKED
-              </span>
-            </div>
-          </div>
-          <div className="pink">
-            <div className="pinkDot dotStyle"></div>
-            <div className="progressBarContentPink">
-              <p className="semiTitle">{data.liquidity} %</p>
-              <span className="semiDes">Lequidity</span>
-            </div>
-          </div>
-          <div className="cream">
-            <div className="creamDot dotStyle"></div>
-            <div className="progressBarContentCream">
-              <p className="semiTitle">{data.presale} %</p>
-              <span className="semiDes">Presale</span>
-            </div>
-          </div>
-          <div className="mud">
-            <div className="mudDot dotStyle"></div>
-          </div>
           <div className="progressBar">
             <ProgressChart data={data}></ProgressChart>
-            <div className="progressBarContentMud">
-              <p className="semiTitle">{data.future} %</p>
-              <span className="semiDes">
-                Future Exchange <br /> Liquidity <br /> Locked for 1 year
-              </span>
+            <div className="green">
+              <div className="greenDot dotStyle"></div>
+              <div className="progressBarContentGreen">
+                <p className="semiTitle">{data.token} %</p>
+                <span className="semiDes">
+                  Teanm Tokens <br /> LOCKED
+                </span>
+              </div>
+            </div>
+            <div className="pink">
+              <div className="pinkDot dotStyle"></div>
+              <div className="progressBarContentPink">
+                <p className="semiTitle">{data.liquidity} %</p>
+                <span className="semiDes">Lequidity</span>
+              </div>
+            </div>
+            <div className="cream">
+              <div className="creamDot dotStyle"></div>
+              <div className="progressBarContentCream">
+                <p className="semiTitle">{data.presale} %</p>
+                <span className="semiDes">Presale</span>
+              </div>
+            </div>
+            <div className="mud">
+              <div className="mudDot dotStyle"></div>
+              <div className="progressBarContentMud">
+                <p className="semiTitleMud">{data.future} %</p>
+                <span className="semiDesmud">
+                  Future Exchange <br /> Liquidity <br /> Locked for 1 year
+                </span>
+              </div>
             </div>
           </div>
         </div>

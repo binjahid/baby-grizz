@@ -131,3 +131,26 @@
     left: 70px;
   }
 }
+@media screen and (max-width: 420px) {
+  .featureImage {
+    left: -80px;
+  }
+  .featureCercle1 {
+    left: 40px;
+  }
+  .featureImageContianer {
+    width: 10rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .featureImage {
+    left: -120px;
+  }
+  .featureCercle1 {
+    width: 15rem;
+    left: 0px;
+  }
+  .featureImageContianer {
+    width: 10rem;
+  }
+}

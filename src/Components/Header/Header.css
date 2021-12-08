@@ -86,7 +86,7 @@
     height: 100vh;
     background-color: #fff1dc;
     z-index: 100;
-    width: 40%;
+    width: 60%;
     left: 0;
     text-align: center;
     padding-top: 50px;
@@ -106,5 +106,12 @@
     display: block;
     font-size: 30px;
     color: #fe6806;
+  }
+  .buyBtnContainer {
+    display: none;
+  }
+  .buyBtnForMobile {
+    display: block;
+    margin: 30px auto;
   }
 }

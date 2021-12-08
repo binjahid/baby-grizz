@@ -215,3 +215,152 @@
   right: -250px;
   top: 290px;
 }
+/* For Medium devices */
+@media screen and (max-width: 1150px) {
+  .journeySmallImg {
+    right: -230px;
+  }
+  .journeyArrowImg {
+    left: 380px;
+  }
+  .journeyDot1 {
+    right: 235px;
+  }
+  .journeyDot2 {
+    right: 235px;
+  }
+  .journeyDot3 {
+    right: 235px;
+  }
+  .journeyDot4 {
+    right: 235px;
+  }
+  .journeyTimeline1 {
+    left: 60px;
+  }
+  .journeyTimeline2 {
+    left: 60px;
+  }
+  .journeyTimeline3 {
+    top: -20px;
+    right: -75px;
+  }
+  .journeyTimeline4 {
+    top: 270px;
+    right: -75px;
+  }
+  .journeyImg {
+    left: -120px;
+  }
+  .journeyCercle {
+    left: -60px;
+  }
+  .ourJourneyTitleContainer {
+    left: 200px;
+    top: -90px;
+  }
+  .ourJourneyDescription {
+    width: 450px;
+  }
+  .journeyCercle2 {
+    top: 10px;
+    left: -50px;
+  }
+}
+/* for samll mobiles */
+@media screen and (max-width: 728px) {
+  .journeyImg {
+    top: 80px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  .journeySmallImg {
+    right: 70px;
+    top: -80px;
+  }
+  .jouneyCercle3 {
+    left: 0;
+  }
+  .ourJourneyTitleContainer {
+    width: 100%;
+    left: 100px;
+    top: -200px;
+  }
+  .ourJourneyDescription {
+    width: 300px;
+  }
+  .journeyArrow {
+    display: none;
+  }
+  .journeyTimeline1 {
+    left: 25px;
+  }
+  .journeyTimeline3 {
+    left: 25px;
+  }
+  .journeyTimeline4 {
+    top: 315px;
+    left: 25px;
+  }
+  .journeyTimeline2 {
+    top: 470px;
+    left: 25px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .ourJourneyTitleContainer {
+    width: 200px;
+    left: 20px;
+  }
+  .ourJourneyDescription {
+    width: 350px;
+  }
+  .journeyTimeline3 {
+    width: 100%;
+  }
+  .journeyTimeline2 {
+    width: 100%;
+  }
+  .journeyTimeline1 {
+    width: 100%;
+  }
+  .journeyTimeline4 {
+    width: 100%;
+  }
+}
+/* for I pad */
+@media screen and (max-width: 770px) and (min-width: 420px) {
+  .ourJourneyTitleContainer {
+    width: 200px;
+    top: -150px;
+    left: 300px;
+  }
+  .jouneyCercle3 {
+    left: 400px;
+  }
+  .journeyImg {
+    width: 300px;
+    height: 300px;
+    top: 60px;
+    left: -60px;
+  }
+  .journeyCercle {
+    top: 60px;
+  }
+  .journeyArrowImg {
+    left: 295px;
+  }
+  .journeyTimeline1 {
+    left: -70px;
+  }
+  .journeyTimeline2 {
+    left: -70px;
+  }
+  .journeyTimeline3 {
+    left: 340px;
+  }
+  .journeyTimeline4 {
+    left: 340px;
+  }
+}

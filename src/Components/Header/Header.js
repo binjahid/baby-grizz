@@ -98,6 +98,21 @@ const Header = () => {
                   WhitePapers
                 </Link>
               </li>
+              <li>
+                <Link
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="navLink"
+                  to="/"
+                >
+                  <button className="buyBtnForMobile">
+                    <Link className="buyLink" to="/">
+                      Buy pancakeswop
+                    </Link>
+                  </button>
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="buyBtnContainer">
