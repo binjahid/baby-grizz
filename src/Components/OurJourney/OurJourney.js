@@ -11,7 +11,7 @@ const OurJourney = () => {
       xl: "350px",
       md: "250px",
       sm: "300px",
-      xs: "340px",
+      xs: "310px",
     },
     p: "5px 20px",
     borderRadius: "10px",

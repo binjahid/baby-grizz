@@ -31,7 +31,7 @@ const Footer = () => {
                 padding: "10px 20px",
                 mb: "20px",
                 top: "-50px",
-                width: { lg: "100%", md: "100%", sm: "100%", xs: "109%" },
+                width: { lg: "100%", md: "100%", sm: "100%", xs: "108.5%" },
               }}
             >
               <Grid

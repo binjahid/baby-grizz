@@ -43,7 +43,7 @@
   top: -42px;
 }
 .journey-img-container {
-  width: 350px;
+  width: 348px;
   height: 350px;
 }
 .journeyImg {
@@ -314,7 +314,7 @@
     left: 20px;
   }
   .ourJourneyDescription {
-    width: 350px;
+    width: 340px;
   }
   .journeyTimeline3 {
     width: 100%;
@@ -328,9 +328,21 @@
   .journeyTimeline4 {
     width: 100%;
   }
+  .journey-img-container {
+    left: -1px;
+  }
+  .journeyTimeline1 {
+    top: 190px;
+  }
+  .journeyTimeline2 {
+    top: 350px;
+  }
+  .journeyTimeline4 {
+    top: 515px;
+  }
 }
 /* for I pad */
-@media screen and (max-width: 770px) and (min-width: 420px) {
+@media screen and (max-width: 770px) and (min-width: 419px) {
   .ourJourneyTitleContainer {
     width: 200px;
     top: -150px;

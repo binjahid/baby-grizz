@@ -229,7 +229,7 @@
     right: -10px;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 380px) {
   .processBar {
     width: 150px;
   }
@@ -256,7 +256,9 @@
     height: 50px;
   }
   .progressBarContentPink {
+    width: 50px;
     font-size: 12px;
+    left: 100px;
   }
   .mud {
     top: 130px;

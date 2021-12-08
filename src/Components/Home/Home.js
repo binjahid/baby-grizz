@@ -16,6 +16,7 @@ const Home = () => {
       <Tokenomics></Tokenomics>
       <OurJourney></OurJourney>
       <TokenDistribution></TokenDistribution>
+
       <Footer></Footer>
     </div>
   );

@@ -115,4 +115,7 @@
   font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 420px) {
+  .footerTitle {
+    width: 345px;
+  }
 }
