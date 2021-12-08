@@ -1,0 +1,107 @@
+.footerContainer {
+  background-image: url("../../Images/footerBackground.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position-y: bottom;
+  width: 100%;
+}
+.footerContent {
+  height: 800px;
+}
+.footerTitle {
+  font-size: 40px;
+  width: 400px;
+  color: #ffffff;
+}
+.footerBtn {
+  border: none;
+  background-image: linear-gradient(to right, #fff7dc, #ffffff);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  color: #251400;
+  border-radius: 30px;
+}
+.footerImgContainer {
+  width: 200px;
+  height: 350px;
+}
+.footerSmlImg {
+  position: absolute;
+  top: -40px;
+  left: -130px;
+  width: 350px;
+  z-index: 100;
+}
+.footerCercle {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  background-color: #fffbf6;
+  border-radius: 50%;
+  top: 30px;
+  left: -115px;
+}
+.FooterLogoContainer {
+  display: flex;
+  justify-content: center;
+}
+.Footelogos {
+  display: flex;
+}
+.Footerlogo {
+  width: 100px;
+  height: 100px;
+}
+.FooterlogoText {
+  padding-top: 7px;
+  color: white;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.footerSloganContainer {
+  display: flex;
+  justify-content: center;
+}
+.footerSlogan {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+.footerLinksContainer {
+  display: flex;
+  justify-content: center;
+}
+.footerLinks {
+  color: white;
+  font-size: 21px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffa31d;
+  border: 1px solid #ffa31d;
+  padding: 7px 10px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+.footerLinks:hover {
+  background-color: transparent;
+  border: 1px solid #ffa31d;
+  color: #ffa31d;
+}
+.footerDividerLine {
+  width: 100%;
+  height: 1px;
+  background-color: #c55700;
+  margin-top: 80px;
+}
+.footerCopyrightContainer {
+  display: flex;
+  justify-content: center;
+}
+.footerCopyright {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
