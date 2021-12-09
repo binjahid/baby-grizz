@@ -51,7 +51,7 @@ const Footer = () => {
                   <h2 className="footerTitle">
                     Be part of our growing community on Telegram now
                   </h2>
-                  <button className="footerBtn">Join NOW</button>
+                  <button className="footerBtn ">Join NOW</button>
                 </div>
               </Grid>
               <Grid

@@ -199,24 +199,44 @@
   position: absolute;
   left: 230px;
   top: 160px;
+  transition: 0.5s;
+}
+.journeyTimeline1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 /* messasge 2 */
 .journeyTimeline2 {
   position: absolute;
   left: 230px;
   top: 400px;
+  transition: 0.5s;
+}
+.journeyTimeline2:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 /* message 3 */
 .journeyTimeline3 {
   position: absolute;
   right: -250px;
   top: 20px;
+  transition: 0.5s;
+}
+.journeyTimeline3:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 /* message 4 */
 .journeyTimeline4 {
   position: absolute;
   right: -250px;
   top: 290px;
+  transition: 0.5s;
+}
+.journeyTimeline4:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 /* For Medium devices */
 @media screen and (max-width: 1150px) {
@@ -383,5 +403,19 @@
   }
   .journeyTimeline4 {
     left: 340px;
+  }
+}
+@media screen and (max-width: 415px) and (min-width: 400px) {
+  .journeyTimeline1 {
+    left: 40px;
+  }
+  .journeyTimeline2 {
+    left: 40px;
+  }
+  .journeyTimeline3 {
+    left: 40px;
+  }
+  .journeyTimeline4 {
+    left: 40px;
   }
 }

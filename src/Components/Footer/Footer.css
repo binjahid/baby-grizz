@@ -31,6 +31,13 @@
   padding: 10px 30px;
   color: #251400;
   border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.footerBtn:hover {
+  /* add grow on hover effect */
+  transform: scale(1.1);
 }
 .footerImgContainer {
   width: 200px;

@@ -121,3 +121,10 @@
   bottom: -250px;
   border: 5px solid #ffedd4;
 }
+.tokenomicsCard {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.tokenomicsCard:hover {
+  transform: scale(1.1);
+}

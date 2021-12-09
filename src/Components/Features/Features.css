@@ -99,6 +99,7 @@
   background-color: #fe6806;
   animation: float2 30s infinite linear;
   z-index: 150;
+  animation-delay: 1s;
 }
 .descriptionSmallCercle1 {
   position: absolute;

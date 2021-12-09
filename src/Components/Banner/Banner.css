@@ -71,6 +71,7 @@
   border: 5px solid #fe6806;
   top: 3rem;
   left: 31.1rem;
+  animation: bannerMiniCircleAnimation 10s infinite linear;
 }
 .miniSercle2 {
   position: absolute;
@@ -364,5 +365,16 @@
   }
   100% {
     transform: translate(0);
+  }
+}
+@keyframes bannerMiniCircleAnimation {
+  0% {
+    transform: translate(0) rotate(0);
+  }
+  50% {
+    transform: translate(-180px, 0) rotateY(360deg);
+  }
+  100% {
+    transform: translate(0) rotate(0);
   }
 }
