@@ -121,6 +121,13 @@
   left: -4rem;
   background-color: #fe6806;
 }
+.featureCard {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.featureCard:hover {
+  transform: scale(1.1);
+}
 /* for small devices  */
 @media screen and (max-width: 768px) {
   .featureImage {

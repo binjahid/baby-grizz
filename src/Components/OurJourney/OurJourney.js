@@ -42,7 +42,7 @@ const OurJourney = () => {
     },
   };
   return (
-    <div className="jounrneyContainer">
+    <div className="jounrneyContainer" id="roadmap">
       <div className="ourJourneyTitleContainer">
         <h2 className="ourJourneyTitle">Our Journey</h2>
         <p className="ourJourneyDescription">

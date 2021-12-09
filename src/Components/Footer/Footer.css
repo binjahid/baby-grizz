@@ -19,7 +19,7 @@
   z-index: 8;
 }
 .footerTitle {
-  font-size: 40px;
+  font-size: 2.3rem;
   width: 400px;
   color: #ffffff;
 }
@@ -124,5 +124,10 @@
 @media screen and (max-width: 420px) {
   .footerTitle {
     width: 345px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .footerTitleGrid {
+    width: 109.5% !important;
   }
 }

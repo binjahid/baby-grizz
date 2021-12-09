@@ -23,6 +23,7 @@ const Footer = () => {
           <div className="footerTitleContainer">
             <Grid
               container
+              className="footerTitleGrid"
               spacing={2}
               sx={{
                 position: "relative",

@@ -6,6 +6,8 @@ import "./Header.css";
 import logo from "../../Images/logo1.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineCancel } from "react-icons/md";
+import { HashLink, NavHashLink } from "react-router-hash-link";
+
 const Header = ({ open, setOpen }) => {
   return (
     <div className="headerContainer">
@@ -43,48 +45,65 @@ const Header = ({ open, setOpen }) => {
                 />
               </li>
               <li>
-                <Link
+                <NavHashLink
                   onClick={() => {
                     setOpen(false);
                   }}
                   className="navLink"
-                  to="/"
+                  to="#home"
+                  activeClassName="active"
+                  activeStyle={{ color: "#fe6806" }}
                 >
                   Home
-                </Link>
+                </NavHashLink>
               </li>
               <li>
-                <Link
+                <HashLink
+                  smooth
                   onClick={() => {
                     setOpen(false);
                   }}
                   className="navLink"
-                  to="/"
+                  to="#about"
                 >
                   About Us
-                </Link>
+                </HashLink>
               </li>
               <li>
-                <Link
+                <HashLink
+                  smooth
                   onClick={() => {
                     setOpen(false);
                   }}
                   className="navLink"
-                  to="/"
+                  to="#tokenomics"
+                >
+                  Tokenomics
+                </HashLink>
+              </li>
+              <li>
+                <HashLink
+                  smooth
+                  onClick={() => {
+                    setOpen(false);
+                  }}
+                  className="navLink"
+                  to="#roadmap"
                 >
                   Roadmap
-                </Link>
+                </HashLink>
               </li>
               <li>
-                <Link
+                <HashLink
+                  smooth
                   onClick={() => {
                     setOpen(false);
                   }}
                   className="navLink"
-                  to="/"
+                  to="#nft"
                 >
                   NFT Mint
-                </Link>
+                </HashLink>
               </li>
               <li>
                 <Link

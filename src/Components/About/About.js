@@ -19,7 +19,7 @@ const About = () => {
     }
   };
   return (
-    <div className="AboutContainer">
+    <div className="AboutContainer" id="about">
       <Container>
         <Grid container spacing={1}>
           <Grid

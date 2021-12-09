@@ -5,8 +5,14 @@
   padding: 10px 40px;
   border-radius: 20px;
   background-image: linear-gradient(to bottom, #ffa622, #fd5b00);
+  /* border: 1px solid transparent; */
   color: #ffffff;
   cursor: pointer;
+}
+.banner-buy-btn:hover {
+  border: 1px solid #fd5b00;
+  color: #fd5b00;
+  background-image: none;
 }
 .headerRewardContainer {
   position: relative;

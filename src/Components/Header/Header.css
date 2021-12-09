@@ -46,9 +46,16 @@
 .navLink:active {
   color: #fe6806;
 }
+.active {
+  color: #fe6806;
+}
 .buyBtn {
   border: none;
   background-color: transparent;
+}
+.buyLink:hover {
+  background-color: #fe6806;
+  color: white;
 }
 .buyLink {
   text-decoration: none;

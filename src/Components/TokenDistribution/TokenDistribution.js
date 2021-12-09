@@ -12,7 +12,7 @@ const TokenDistribution = () => {
     future: 20,
   };
   return (
-    <div style={{ marginBottom: "200px" }}>
+    <div id="nft" style={{ marginBottom: "200px" }}>
       <Container fixed>
         <div className="tokenTitileContainer">
           <h2 className="tokenTitle">Token Distribution</h2>
