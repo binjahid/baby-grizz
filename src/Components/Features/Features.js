@@ -8,7 +8,7 @@ import featureIcon3 from "../../Images/featureIcon3.png";
 import featureImage from "../../Images/featureImage.png";
 const Features = () => {
   return (
-    <div>
+    <div style={{ overflow: "hidden" }}>
       <Container>
         <Box sx={{ position: "relative" }}>
           <p className="features-title">Some of Our Features</p>

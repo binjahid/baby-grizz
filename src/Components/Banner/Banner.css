@@ -21,6 +21,7 @@
   width: 30rem;
   height: 30rem;
   z-index: 100;
+  animation: moveBannerImg 3s infinite linear;
 }
 .img {
   z-index: 100;
@@ -80,6 +81,8 @@
   height: 1rem;
   background-color: #fe6806;
   border-radius: 50%;
+  animation: floatLeftToRight 30s infinite linear;
+  z-index: 150;
 }
 .miniSercle3 {
   position: absolute;
@@ -92,6 +95,8 @@
   /* background-color: #fe6806; */
   border-radius: 50%;
   background-image: linear-gradient(to right, #ffa622, #fd5b00);
+  animation: floatRightToLeft 40s infinite linear;
+  z-index: 50;
 }
 .miniSercle4 {
   position: absolute;
@@ -113,6 +118,8 @@
   right: 0;
   border-radius: 50%;
   background-image: linear-gradient(to right, #ffa622, #fd5b00);
+  z-index: 150;
+  animation: folot 30s infinite linear;
 }
 .bannerImage2 {
   position: absolute;
@@ -186,7 +193,7 @@
     width: 12rem;
   }
   .bannerImg {
-    width: 25rem;
+    width: 24.5rem;
     height: 25rem;
     top: 40px;
     left: -120px;
@@ -202,5 +209,160 @@
     height: 18rem;
     top: 60px;
     left: -30px;
+  }
+}
+
+/* animations */
+@keyframes moveBannerImg {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*Float animation laft to right  */
+@keyframes floatLeftToRight {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-400px, 0);
+  }
+  50% {
+    transform: translate(0, -400px);
+  }
+  75% {
+    transform: translate(400px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes floatRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1500px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes folot {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-400px, 0);
+  }
+  50% {
+    transform: translate(0, 400px);
+  }
+  75% {
+    transform: translate(400px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes float2 {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(400px, 0);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(-400px, 0);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes float4 {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-600px, 0);
+  }
+  50% {
+    transform: translate(0px, 200px);
+  }
+  75% {
+    transform: translate(400px, -200px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes float3 {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-400px, 0);
+  }
+  50% {
+    transform: translate(200px, 300px);
+  }
+  75% {
+    transform: translate(200px, 0px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes tokenCircleAnimatin1 {
+  0% {
+    transform: translate();
+  }
+  25% {
+    transform: translate(800px, 0);
+  }
+  50% {
+    transform: translate(400px, 200px);
+  }
+  75% {
+    transform: translate(200px, 200px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes tokenCircle6Animation {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-600px, 0);
+  }
+  50% {
+    transform: translate(-100px, 300px);
+  }
+  /* 75% {
+    transform: translate(100px, 0px);
+  } */
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes journeyCircl4animation {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(600px, 200px);
+  }
+  100% {
+    transform: translate(0);
   }
 }

@@ -50,6 +50,7 @@
   border-radius: 50%;
   left: 150px;
   bottom: -100px;
+  animation: tokenCircleAnimatin1 30s infinite linear;
 }
 .tokenCercle2 {
   position: absolute;
@@ -98,6 +99,7 @@
   border-radius: 50%;
   right: 8%;
   bottom: -100px;
+  animation: tokenCircle6Animation 30s infinite linear;
 }
 .tokenCercle7 {
   position: absolute;

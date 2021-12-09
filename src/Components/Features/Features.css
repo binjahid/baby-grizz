@@ -4,8 +4,8 @@
   font-family: "Nunito", sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
-  top: -7rem;
-  margin-bottom: -2rem;
+  top: -3rem;
+  margin-bottom: 0rem;
 }
 .feature-icon {
   background-color: #fe6806;
@@ -76,6 +76,7 @@
   top: 8rem;
   right: 3.7rem;
   background-color: #fe6806;
+  animation: float3 30s infinite linear;
 }
 .miniCercle2 {
   position: absolute;
@@ -85,6 +86,8 @@
   top: 8rem;
   left: 7rem;
   background-color: #fe6806;
+  animation: folot 30s infinite linear;
+  z-index: 150;
 }
 .miniCercle3 {
   position: absolute;
@@ -94,6 +97,8 @@
   bottom: 2rem;
   left: 7rem;
   background-color: #fe6806;
+  animation: float2 30s infinite linear;
+  z-index: 150;
 }
 .descriptionSmallCercle1 {
   position: absolute;
@@ -103,6 +108,8 @@
   top: 8rem;
   left: -1.5rem;
   background-color: #fe6806;
+  animation: float4 30s infinite linear;
+  z-index: 150;
 }
 .descriptionSmallCercle2 {
   position: absolute;

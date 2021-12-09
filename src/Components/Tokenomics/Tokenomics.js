@@ -6,7 +6,7 @@ import cardImg2 from "../../Images/cardImg2.png";
 import cardImg3 from "../../Images/cardImg3.png";
 const Tokenomics = () => {
   return (
-    <div style={{ paddingBottom: "18rem" }}>
+    <div style={{ paddingBottom: "18rem", overflow: "hidden" }}>
       <div className="TokonomicTitleContainer">
         <h2 className="TokonomicTitle">Tokenomics</h2>
         <p className="TokonomicDescription">

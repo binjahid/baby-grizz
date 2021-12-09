@@ -6,8 +6,7 @@ import "./Header.css";
 import logo from "../../Images/logo1.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineCancel } from "react-icons/md";
-const Header = () => {
-  const [open, setOpen] = React.useState(false);
+const Header = ({ open, setOpen }) => {
   return (
     <div className="headerContainer">
       <header className="Header">

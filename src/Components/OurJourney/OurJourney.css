@@ -43,7 +43,7 @@
   top: -42px;
 }
 .journey-img-container {
-  width: 348px;
+  width: 342px;
   height: 350px;
 }
 .journeyImg {
@@ -53,6 +53,7 @@
   height: 400px;
   position: absolute;
   z-index: 100;
+  animation: moveBannerImg 3s infinite linear;
 }
 .journeyCercle {
   width: 320px;
@@ -71,6 +72,7 @@
   top: -30px;
   left: 550px;
   background-color: #ff730b;
+  animation: float4 30s infinite linear;
 }
 .jouneyCercle4 {
   width: 15px;
@@ -80,6 +82,7 @@
   top: -50px;
   left: -400px;
   background-color: #ff730b;
+  animation: journeyCircl4animation 30s infinite linear;
 }
 .jouneyCercle5 {
   width: 20px;
@@ -332,13 +335,19 @@
     left: -1px;
   }
   .journeyTimeline1 {
+    left: 17px;
     top: 190px;
   }
   .journeyTimeline2 {
+    left: 17px;
     top: 350px;
+  }
+  .journeyTimeline3 {
+    left: 17px;
   }
   .journeyTimeline4 {
     top: 515px;
+    left: 17px;
   }
 }
 /* for I pad */

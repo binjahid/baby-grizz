@@ -7,6 +7,7 @@
   height: 100%;
   background-position-y: bottom;
   width: 100%;
+  overflow: hidden;
   z-index: 100;
   /* background-color: #fff1dc; */
 }
@@ -64,6 +65,7 @@
   display: none;
   cursor: pointer;
 }
+
 /* Resposive Menu CSS */
 @media screen and (max-width: 1200px) {
   .MenuHidden {

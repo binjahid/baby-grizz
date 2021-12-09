@@ -8,9 +8,10 @@ import TokenDistribution from "../TokenDistribution/TokenDistribution";
 import Tokenomics from "../Tokenomics/Tokenomics";
 
 const Home = () => {
+  const [open, setOpen] = React.useState(false);
   return (
     <div style={{ backgroundColor: "#FFFBF6" }}>
-      <Header></Header>
+      <Header open={open} setOpen={setOpen}></Header>
       <Features></Features>
       <About></About>
       <Tokenomics></Tokenomics>
